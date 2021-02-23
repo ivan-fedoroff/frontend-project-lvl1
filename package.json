@@ -1,0 +1,23 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "text game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivan-fedoroff/frontend-project-lvl1.git"
+  },
+  "keywords": [
+    "brain",
+    "game"
+  ],
+  "author": "Ivan Fedorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivan-fedoroff/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/ivan-fedoroff/frontend-project-lvl1#readme"
+}
