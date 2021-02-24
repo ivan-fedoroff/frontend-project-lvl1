@@ -6,13 +6,6 @@ extends:
 parserOptions:
   ecmaVersion: 12
   sourceType: module
-rules: {}
-overrides: [
-    {
-      files: ["*scr/cli.js","*bin/brain-games.js"],
-      rules: {
-        "no-console": off
-        "import/extensions": off
-      }
-    }
-  ]
+rules: 
+  no-console: 0
+  import/extensions: 0
