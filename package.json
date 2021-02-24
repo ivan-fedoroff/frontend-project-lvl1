@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/ivan-fedoroff/frontend-project-lvl1/issues"
   },
+  "type": "module",
   "homepage": "https://github.com/ivan-fedoroff/frontend-project-lvl1#readme"
 }
