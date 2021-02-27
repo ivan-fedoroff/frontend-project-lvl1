@@ -1,9 +1,10 @@
 {
   "name": "@hexlet/code",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "text game",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "main": "index.js",
   "scripts": {
