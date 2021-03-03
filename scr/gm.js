@@ -14,21 +14,16 @@ for (let k = 0; k < 4;) {
     break;
   }
   const number = getRandom();
-  const trueValue = [number % 2 === 0 && 'yes', number % 2 === 1 && 'no'];
-  const falseValue = [number % 2 === 0 && 'no', number % 2 === 1 && 'yes'];
-  const answer = readlineSync.question(`Question: ${number}\nYour answer: `, {
-    trueValue,
-    falseValue// eslint-disable-line comma-dangle
-  });
-  if (answer === true) {
+  const question = `Question: ${number}\nYour answer: `;
+  const answer = readlineSync.question(question);
+  const isTrue = (number % 2 === 0 && answer === 'yes') || (number % 2 === 1 && answer === 'no');
+  const corectAnswer = answer === 'yes' ? 'no' : 'yes';
+  if (isTrue === true) {
     console.log('Correct!');
     k += 1;
-  } else if (answer === false && number % 2 === 0) {
-    console.log(`'no' is a wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${name}!`);
-    k = 0;
-  } else if (answer === false && number % 2 === 1) {
-    console.log(`'yes' is a wrong answer ;(. Correct answer was 'no'.\nLet's try again!, ${name}!`);
-    k = 0;
+  } else if (isTrue === false) {
+    console.log(`'${answer}' is a wrong answer ;(. Correct answer was '${corectAnswer}'.\nLet's try again, ${name}!`);
+    break;
   } else {
     break;
   }
