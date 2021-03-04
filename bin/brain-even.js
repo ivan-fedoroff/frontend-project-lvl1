@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-import '../scr/gm.js';
+import '../games/gm.js';

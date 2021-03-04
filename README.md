@@ -6,3 +6,4 @@
 [![eslint check](https://github.com/ivan-fedoroff/frontend-project-lvl1/actions/workflows/eslint-check.yml/badge.svg?branch=main)](https://github.com/ivan-fedoroff/frontend-project-lvl1/actions/workflows/eslint-check.yml)
 ### Asciinema
 https://asciinema.org/a/pMLex1hYIS5J3UhVC1Fl2UV68
+https://asciinema.org/a/1C1H1IyvUWjF6rnr8OQQldj1G
