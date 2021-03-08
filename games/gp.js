@@ -11,8 +11,8 @@ const getProgression = () => {
 const getExpression = () => {
   const prsn = getProgression();
   prsn[Math.floor(Math.random() * 10)] = '..';
-  let strExp = '';
-  for (let i = 0; i < 10; i += 1) {
+  let strExp = String(prsn[0]);
+  for (let i = 1; i < 10; i += 1) {
     strExp = `${strExp} ${prsn[i]}`;
   }
   return strExp;
